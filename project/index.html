@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+    <style>
+        table {
+            border-collapse: collapse;
+        }
+        .table_2 {
+            border-collapse: collapse;
+            border: 3px solid black
+        }
+        .table_2 td {
+            border: 1px solid black
+        }
+        .table_inputs {
+            width: 650px;
+            height: 100px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h2 id="begin"><marquee behavior="scroll" direction="left" scrollamount="5"> 
+        <div style="display:flex; gap: 5px;">
+            <span style="color: red; display:flex; align-items: end;">
+            <span>A</span>
+            <span style="font-size: 22px;">S</span>
+            <span style="font-size: 20px;">K</span>
+            <span style="font-size: 18px;">I</span>
+            <span style="font-size: 16px;">N</span>
+            <span style="font-size: 14px">G</span>  
+        </span> 
+        <span style="color:green;">t<sup>h</sup>e</span> 
+        <span style="color:blue;">W<sub>ay</sub></span></div>
+        </marquee>
+    </h2>
+
+<p style="font-size: 26px; color: red; font-style: italic;">—<sup>1</sup>Excuse me,<pre><sup>2</sup>can you tell me where Prater Street is, please?</pre></p>
+<p align="right" style="font-size:larger;">—<sup>3</sup> <font color="6ec413">Take</font> <font color="b9c413">the</font> <font color="13c4bc">second</font> <font color="#ff6600">on</font> <font color="b113c4">the</font> <font color="6ec413">left</font> <font color="13c4bc">and</font> <font color="b113c4">then</font> <font color="#ff6600">ask</font> <font color="b9c413">again.</font></p>
+<p style="direction: rtl">—<sup>4</sup> Is it far</p>
+<p>—<sup>5</sup><s>No, it's only <br>about five minutes' walk.</s></p>
+<p style="font-family: Arial, Helvetica, sans-serif; font-size: small; text-align: center;">—<sup>6</sup>Thank you.</p>
+<h2>—<sup>7</sup> That's OK</h2>
+    <hr>
+    <dl>
+        <dt>Пункт 1</dt>
+        <ol type="A">
+            <li>Пункт 1.1</li>
+            <ul type="square">
+                <li>Пункт 1.1.1</li>
+                <li>Пункт 1.1.2</li>
+                <li>Пункт 1.1.3</li>
+            </ul>
+            <li>Пункт 1.2</li>
+            <ul>
+                <li>Пункт 1.2.1</li>
+                <li>Пункт 1.2.2</li>
+            </ul>
+        </ol>
+        <br>
+        <a href="#begin">К началу страницу</a><br>
+        <a href="http://www.bsu.unibel.by" target="_blank">Ссылка на адрес Белорусского государственного университета</a><br>
+        <a href="mailto:dovnar.il52@gmail.com">Ссылка на почту</a><br>
+        <a href="#frame">К концу страницы</a>
+        <table border="1">
+            <caption>Заголовок таблицы</caption>
+            <tr style="width: 50px; height: 50px;">
+                <td></td>
+                <td style="vertical-align: top; text-align: center;">Заголовок 1</td>
+                <td colspan="3" style="vertical-align: top;">&nbsp;&nbsp;&nbsp;&nbsp;Заголовок 2</td>
+            </tr>
+            <tr>
+                <td>Заголовок 3</td>
+                <td style="text-align: left; vertical-align: top;">Ячейка 1</td>
+                <td colspan="2" rowspan="2">
+                    <table class="table_2">
+                        <tr style="width: 75px; height: 75px; vertical-align: top; text-align: center;" bgcolor="white">
+                            <td bg>Ячейка 1<br>Таблицы 2</td>
+                            <td>Ячейка 2<br>Таблицы 2</td>
+                        </tr>
+                        <tr style="width: 65px; height: 65px; vertical-align: top; text-align: center;" bgcolor="white">
+                            <td>Ячейка 3<br>Таблицы 2</td>
+                            <td>Ячейка 4<br>Таблицы 2</td>
+                        </tr>
+                    </table>
+                </td>
+                <td style="vertical-align: top; text-align: left; width: 85px; height: 65px;">Ячейка 3</td>
+            </tr>
+            <tr>
+                <td>Заголовок 4</td>
+                <td style="text-align: left; vertical-align: bottom;">Ячейка 2</td>
+                <td style="text-align: left; vertical-align: bottom;">Ячейка 4</td>
+            </tr>
+            <tr style="height: 35px;">
+                <td style="padding-bottom: 5px; vertical-align: bottom;">Заголовок 5</td>
+                <td colspan="4" style="padding: 10px 0px 0px 0px;"><pre style="text-align: center; margin: 0px;">Ячейка 5</pre></td>
+            </tr>
+        </table>
+        
+        <br>
+        <table border="1" class="table_inputs">
+            <form action="" method="get"  name="query">
+            <caption>Заголовок таблицы</caption>
+            <tr>
+                <td style="height: 50px;">Вопрос 1</td>
+                <td><input type="text" style="width: 75px;"></td>
+                <td><input type="text" style="width: 75px;"></td>
+                <td><input type="text" style="width: 75px;"></td>
+            </tr>
+            <tr>
+                <td style="height: 50px;">Вопрос 2</td>
+                <td colspan="3" style="text-align: left; padding-left: 5px;">
+                    <select name="list" id="answer_2" style="width: 200px;">
+                        <option value="0" selected>Ответ 2.1</option>
+                        <option value="1">Ответ 2.2</option>
+                        <option value="2">Ответ 2.3</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td style="height: 50px;">Вопрос 3</td>
+                <td><input type="checkbox">Ответ 2.1</td>
+                <td><input type="checkbox">Ответ 2.2</td>
+                <td><input type="checkbox">Ответ 2.3</td>
+            </tr>
+            <tr style="height: 40px;">
+                <td style="height: 50px;">Вопрос 4</td>
+                <td colspan="4"><input type="text" style="width: 250px;"></td>
+            </tr>
+            <tr>
+                <td style="height: 50px;">Вопрос 5</td>
+                <td><input type="radio" name="answer" checked>Ответ 5.1</td>
+                <td><input type="radio" name="answer">Ответ 5.2</td>
+                <td><input type="radio" name="answer">Ответ 5.3</td>
+            </tr>
+            <tr>
+                <td style="height: 50px;">Вопрос 6</td>
+                <td colspan="4" style="text-align: right;"><input type="text" style="width: 50px; margin-right: 20px;"> <input type="file" style="width: 125px;"></td>
+            </tr>
+            <tr>
+                <td>Вопрос 7</td>
+                <td colspan="4">
+                    <table style="border: 1px solid black; width: 100px; margin-left: 5px;">
+                        <td>Ответ 7.1<br>Ответ 7.2<br>Ответ 7.3<br>Ответ 7.4</td>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td>Дополнительная информация</td>
+                <td colspan="4"><textarea name="additional_information" id="add_inf" style="overflow-y: scroll; width: 95%; height: 200px;"></textarea></td>
+            </tr>
+            <tr>
+                <td colspan="4"><input type="submit" style="margin-left: 40px; margin-right: 20px; vertical-align: top;"><input type="reset" style="margin-left: 40px; margin-right: 20px; vertical-align: top;"></input><button style="margin-left: 40px; margin-right: 20px; width: 100px;">Кнопка с рисунком</button></td>
+            </tr>
+            </form>
+        </table>
+        <br>
+
+
+<div id="frame" style="display: flex; width: 100%; height: 600px; border: 1px solid black; ">
+    <iframe src="frame1.html" style="flex: 35%; border: 1px solid black;"></iframe>
+    <div style="flex: 65%; display: flex; flex-direction: column;">
+        <iframe src="frame2.html" style="flex: 35%; border: 1px solid black;"></iframe>
+        <div style="flex: 65%; display: flex;">
+            <iframe src="frame3.html" style="flex: 35%; border: 1px solid black;"></iframe>
+            <iframe src="frame4.html" style="flex: 65%; border: 1px solid black;"></iframe>
+        </div>
+    </div>
+</div>
+         
+</body>
+</html>
