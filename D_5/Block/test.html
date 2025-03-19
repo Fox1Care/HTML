@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        body {height: 1000px;}
+        .header {
+            text-align: center;
+            height: 50px;
+            background-color: #dce9d4;
+        }
+        .menu {
+            width: 200px;
+            height: 300px;
+            background-color: #fbe6a0;
+            float: left;
+        }
+        .content {
+            background-color: red;
+            position: absolute;
+        }
+        .banner {
+            width: 200px;
+            height: 300px;
+            background-color: #779de7;
+            float:right;
+        }
+        .footer {
+            height: 50px;
+            background-color: yellow;
+            clear: both;
+        }
+        .clear {
+            background-color: rgb(40, 254, 7);
+            height: 100px;
+            clear: both;
+        }
+        .wrap {
+            background-color: #ccd9fc;
+            height: 300px;
+        }
+        .square1, .square2, .square3 {
+            width: 90px;
+            height: 90px;
+            background-color: red;
+            position: absolute;
+            z-index: 2;
+        }
+
+        .square1 {
+            top: 75px;
+            left: 560px;
+        }
+
+        .square2{
+            top: 75px;
+            left: 725px;
+        }
+
+        .square3{
+            top: 195px;
+            left: 645px;
+        }
+
+        .yellow-square{
+            background-color: rgb(255, 187, 0);
+            width: 125px;
+            height: 125px;
+            position: absolute;
+            top: 105px;
+            left: 625px;
+            z-index: 3;
+        }
+
+        .blue-square{
+            background-color: rgba(135, 207, 235, 0.359);
+            width: 300px;
+            height: 300px;
+            position: absolute;
+            left: 535px;
+            z-index: 1;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">header</div>
+    <div class="clear">
+        <div class="wrap">
+            <div class="menu">menu:<br><a href="index.html">Main</a><br><a href="test.html">Test</a></div>
+            <div class="banner">banner</div>
+            <div class="content">
+                <div class="square1"></div>
+                <div class="square2"></div>
+                <div class="square3"></div>
+                <div class="square4"></div>
+                <div class="yellow-square"></div>
+                <div class="blue-square"></div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">footer</div>
+</body>
+</html>
