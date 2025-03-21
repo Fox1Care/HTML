@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+    <style>
+        * {
+            margin: 0;
+        }
+        body {
+            height: 525px;
+        }
+        .header {
+            text-align: center;
+            height: 50px;
+            background-color: #dce9d4;
+        }
+        .menu {
+            width: 200px;
+            height: 525px;
+            background-color: #fbe6a0;
+            float: left;
+        }
+        .content {
+            margin-left: 15%;
+            text-align: center;
+        }
+        .banner {
+            width: 200px;
+            height: 525px;
+            background-color: #779de7;
+            float:right;
+        }
+        .footer {
+            height: 50px;
+            background-color: yellow;
+            clear: both;
+        }
+        .clear {
+            background-color: rgb(40, 254, 7);
+            height: 100px;
+            clear: both;
+        }
+        .wrap {
+            background-color: #ccd9fc;
+            height: 525px;
+        }
+        table {
+            border-collapse: collapse;
+        }
+        .table_2 {
+            border-collapse: collapse;
+            border: 3px solid black
+        }
+        .table_2 td {
+            border: 1px solid black
+        }
+    </style>
+</head>
+<body>
+    <div class="header">Таблицы</div>
+    <div class="clear">
+        <div class="wrap">
+            <div class="menu">Меню: <br><a href="index.html">Главная</a><br><a href="text.html">Теги и атрибуты</a><br><a href="lists.html">Списки</a><br><a href="refs.html">Ссылки</a><br><a href="tables.html">Таблицы</a><br><a href="forms.html">Формы</a></div>
+            <div class="banner">Баннер</div>
+            <div class="content"><table border="1">
+                <caption>Заголовок таблицы</caption>
+                <tr style="width: 50px; height: 50px;">
+                    <td></td>
+                    <td style="vertical-align: top; text-align: center;">Заголовок 1</td>
+                    <td colspan="3" style="vertical-align: top;">&nbsp;&nbsp;&nbsp;&nbsp;Заголовок 2</td>
+                </tr>
+                <tr>
+                    <td>Заголовок 3</td>
+                    <td style="text-align: left; vertical-align: top;">Ячейка 1</td>
+                    <td colspan="2" rowspan="2">
+                        <table class="table_2">
+                            <tr style="width: 75px; height: 75px; vertical-align: top; text-align: center;">
+                                <td bg>Ячейка 1<br>Таблицы 2</td>
+                                <td>Ячейка 2<br>Таблицы 2</td>
+                            </tr>
+                            <tr style="width: 65px; height: 65px; vertical-align: top; text-align: center;">
+                                <td>Ячейка 3<br>Таблицы 2</td>
+                                <td>Ячейка 4<br>Таблицы 2</td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td style="vertical-align: top; text-align: left; width: 85px; height: 65px;">Ячейка 3</td>
+                </tr>
+                <tr>
+                    <td>Заголовок 4</td>
+                    <td style="text-align: left; vertical-align: bottom;">Ячейка 2</td>
+                    <td style="text-align: left; vertical-align: bottom;">Ячейка 4</td>
+                </tr>
+                <tr style="height: 35px;">
+                    <td style="padding-bottom: 5px; vertical-align: bottom;">Заголовок 5</td>
+                    <td colspan="4" style="padding: 10px 0px 0px 0px;"><pre style="text-align: center; margin: 0px;">Ячейка 5</pre></td>
+                </tr>
+            </table></div>
+        </div>
+    </div>
+    <div class="footer"></div>
+</body>
+</html>

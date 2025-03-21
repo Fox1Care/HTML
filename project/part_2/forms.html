@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+    <style>
+        * {
+            margin: 0;
+        }
+        body {
+            height: 700px;
+        }
+        .header {
+            text-align: center;
+            height: 50px;
+            background-color: #dce9d4;
+        }
+        .menu {
+            width: 200px;
+            height: 700px;
+            background-color: #fbe6a0;
+            float: left;
+        }
+        .content {
+            margin-left: 15%;
+            text-align: center;
+        }
+        .banner {
+            width: 200px;
+            height: 700px;
+            background-color: #779de7;
+            float:right;
+        }
+        .footer {
+            height: 50px;
+            background-color: yellow;
+            clear: both;
+        }
+        .clear {
+            background-color: rgb(40, 254, 7);
+            height: 100px;
+            clear: both;
+        }
+        .wrap {
+            background-color: #ccd9fc;
+            height: 700px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">Формы</div>
+    <div class="clear">
+        <div class="wrap">
+            <div class="menu">Меню: <br><a href="index.html">Главная</a><br><a href="text.html">Теги и атрибуты</a><br><a href="lists.html">Списки</a><br><a href="refs.html">Ссылки</a><br><a href="tables.html">Таблицы</a><br><a href="forms.html">Формы</a></div>
+            <div class="banner">Баннер</div>
+            <div class="content">
+                <table border="1" class="table_inputs">
+                    <form action="" method="get"  name="query">
+                    <caption>Заголовок таблицы</caption>
+                    <tr>
+                        <td style="height: 50px;">Вопрос 1</td>
+                        <td><input type="text" style="width: 75px;"></td>
+                        <td><input type="text" style="width: 75px;"></td>
+                        <td><input type="text" style="width: 75px;"></td>
+                    </tr>
+                    <tr>
+                        <td style="height: 50px;">Вопрос 2</td>
+                        <td colspan="3" style="text-align: left; padding-left: 5px;">
+                            <select name="list" id="answer_2" style="width: 200px;">
+                                <option value="0" selected>Ответ 2.1</option>
+                                <option value="1">Ответ 2.2</option>
+                                <option value="2">Ответ 2.3</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="height: 50px;">Вопрос 3</td>
+                        <td><input type="checkbox">Ответ 2.1</td>
+                        <td><input type="checkbox">Ответ 2.2</td>
+                        <td><input type="checkbox">Ответ 2.3</td>
+                    </tr>
+                    <tr style="height: 40px;">
+                        <td style="height: 50px;">Вопрос 4</td>
+                        <td colspan="4"><input type="text" style="width: 250px;"></td>
+                    </tr>
+                    <tr>
+                        <td style="height: 50px;">Вопрос 5</td>
+                        <td><input type="radio" name="answer" checked>Ответ 5.1</td>
+                        <td><input type="radio" name="answer">Ответ 5.2</td>
+                        <td><input type="radio" name="answer">Ответ 5.3</td>
+                    </tr>
+                    <tr>
+                        <td style="height: 50px;">Вопрос 6</td>
+                        <td colspan="4" style="text-align: right;"><input type="text" style="width: 50px; margin-right: 20px;"> <input type="file" style="width: 125px;"></td>
+                    </tr>
+                    <tr>
+                        <td>Вопрос 7</td>
+                        <td colspan="4">
+                            <table style="border: 1px solid black; width: 100px; margin-left: 5px;">
+                                <td>Ответ 7.1<br>Ответ 7.2<br>Ответ 7.3<br>Ответ 7.4</td>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Дополнительная информация</td>
+                        <td colspan="4"><textarea name="additional_information" id="add_inf" style="overflow-y: scroll; width: 95%; height: 200px;"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td colspan="4"><input type="submit" style="margin-left: 40px; margin-right: 20px; vertical-align: top;"><input type="reset" style="margin-left: 40px; margin-right: 20px; vertical-align: top;"></input><button style="margin-left: 40px; margin-right: 20px; width: 100px;">Кнопка с рисунком</button></td>
+                    </tr>
+                    </form>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div class="footer"></div>
+</body>
+</html>
